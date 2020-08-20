@@ -1,3 +1,5 @@
+var CONFIG = {"hostname":"yoursite.com","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"js":{"valine":"js/valine.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0/dist/contrib/copy-tex.min.js","mediumzoom":"npm/medium-zoom@1.0.5/dist/medium-zoom.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0/dist/katex.min.css","mermaid":"css/mermaid.css"},"search":null,"quicklink":{"timeout":3000,"priority":true}};
+
 Object.assign(HTMLElement.prototype, {
   wrap: function (wrapper) {
     this.parentNode.insertBefore(wrapper, this);
@@ -16,11 +18,19 @@ Object.assign(HTMLElement.prototype, {
     } else {
       return this.getAttribute(type)
     }
+  },
+  insertAfter: function(element) {
+    var parent = this.parentNode;
+    if(parent.lastChild == this){
+        parent.appendChild(element);
+    }else{
+        parent.insertBefore(element, this.nextSibling);
+    }
   }
 });
 
 const $ = function(selector) {
-  if(selector.indexOf('#') > 0) {
+  if(selector.indexOf('#') === 0) {
     return document.getElementById(selector.replace('#', ''))
   }
   return document.querySelector(selector)
@@ -219,9 +229,11 @@ const sidebarTOC = function () {
 
   sections = sections.map(function (element, index) {
     var link = element.querySelector('a.toc-link');
+    var anchor = $(decodeURI(link.attr('href')));
+
     var clickScroll = function (event) {
       event.preventDefault();
-      var target = $(event.currentTarget.attr('href'));
+      var target = $(decodeURI(event.currentTarget.attr('href')));
       activeLock = index;
       pageScroll(window.pageYOffset + target.top() - target.height() - headerHightInner - siteNavHeight,
         function() {
@@ -231,9 +243,9 @@ const sidebarTOC = function () {
     };
 
     // TOC item animation navigate.
-    link.addEventListener('click', clickScroll);
-    $(link.attr('href')).querySelector('a.anchor').addEventListener('click', clickScroll);
-    return $(link.attr('href'));
+    // link.addEventListener('click', clickScroll);
+    // anchor.querySelector('a.anchor').addEventListener('click', clickScroll);
+    // return anchor;
   });
 
   var tocElement = $('.sidebar .panels .inner');
@@ -318,6 +330,16 @@ const sidebarTOC = function () {
 
 const postBeauty = function () {
 
+  $.each('.post .body img', function(element) {
+    var info;
+    if(info = element.attr('title')) {
+      var para = document.createElement('span');
+      var txt = document.createTextNode(info);
+      para.appendChild(txt);
+      para.classList.add('image-info');
+      element.insertAfter(para);
+    }
+  });
   if($('.post .body :not(a) > img, .post .body > img')) {
     vendorJs('mediumzoom', function() {
         window.mediumZoom('.post .body :not(a) > img, .post .body > img', {
@@ -325,6 +347,7 @@ const postBeauty = function () {
         });
       }, window.mediumZoom);
   }
+
 
   $.each('li ruby', function(element) {
     var parent = element.parentNode;
@@ -341,27 +364,28 @@ const postBeauty = function () {
     if (caption) {
       caption.insertAdjacentHTML('afterBegin', '<div class="carbon"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>');
     }
-//这个会报错误，8.2注
-// if(code_container.height() > 300) {
-//      code_container.style.maxHeight = "300px";
-//      code_container.insertAdjacentHTML('beforeend', '<div class="show-btn"><i class="ic i-angle-down up-down"></i></div>');
-//      var showBtn = code_container.querySelector('.show-btn');
-//      var showBtnIcon = showBtn.querySelector('i');
-//      showBtn.addEventListener('click', function(event) {
-//      if (showBtn.classList.contains('open')) {
-//          code_container.style.maxHeight = "300px"
-//          showBtn.classList.remove('open')
-//          showBtnIcon.classList.add('i-angle-down')
-//          showBtnIcon.classList.remove('i-angle-up')
-//          Velocity(code_container.parentNode, "scroll");
-//       } else {
-//          code_container.style.maxHeight = ""
-//          showBtn.classList.add('open')
-//          showBtnIcon.classList.remove('i-angle-down')
-//          showBtnIcon.classList.add('i-angle-up')
-//       }
-//     });
-//  }
+
+    if(code_container && code_container.height() > 300) {
+      code_container.style.maxHeight = "300px";
+      code_container.insertAdjacentHTML('beforeend', '<div class="show-btn"><i class="ic i-angle-down up-down"></i></div>');
+      var showBtn = code_container.querySelector('.show-btn');
+      var showBtnIcon = showBtn.querySelector('i');
+      showBtn.addEventListener('click', function(event) {
+        if (showBtn.classList.contains('open')) {
+          code_container.style.maxHeight = "300px"
+          showBtn.classList.remove('open')
+          showBtnIcon.classList.add('i-angle-down')
+          showBtnIcon.classList.remove('i-angle-up')
+          Velocity(code_container.parentNode, "scroll");
+        } else {
+          code_container.style.maxHeight = ""
+          showBtn.classList.add('open')
+          showBtnIcon.classList.remove('i-angle-down')
+          showBtnIcon.classList.add('i-angle-up')
+        }
+      });
+    }
+
     element.insertAdjacentHTML('beforeend', '<div class="copy-btn"><i class="ic i-clipboard fa-fw"></i></div>');
     var copyBtn = element.querySelector('.copy-btn');
     copyBtn.addEventListener('click', function (event) {
@@ -474,30 +498,30 @@ const getScript = function(url, callback, condition) {
   }
 }
 
-const assetUrl = function(type) {
-  return (CONFIG[type].indexOf('npm')>-1? "//cdn.jsdelivr.net/":statics)+CONFIG[type];
+const assetUrl = function(asset, type) {
+  return (CONFIG[asset][type].indexOf('npm')>-1? "//cdn.jsdelivr.net/":statics)+CONFIG[asset][type];
 }
 
 const vendorJs = function(type, callback, condition) {
-  if(CONFIG[type]) {
-    getScript(assetUrl(type), callback || function(){
+  if(LOCAL[type]) {
+    getScript(assetUrl("js", type), callback || function(){
       window[type] = true;
     }, condition || window[type]);
   }
 }
 
 const vendorCss = function(type, condition) {
-  if(window[type])
+  if(window['css'+type])
     return;
 
-  if(CONFIG[type]) {
+  if(LOCAL[type]) {
     var linkTag = document.createElement('link');
     linkTag.setAttribute('rel','stylesheet');
-    linkTag.href = assetUrl(type);
+    linkTag.href = assetUrl("css", type);
 
     document.head.appendChild(linkTag);
 
-    window[type] = true;
+    window['css'+type] = true;
   }
 }
 
@@ -510,8 +534,10 @@ const loadComments = function () {
   var intersectionObserver = new IntersectionObserver(function(entries, observer) {
     vendorJs('valine', function() {
       var entry = entries[0];
+      vendorCss('valine');
+
       if (entry.isIntersecting) {
-        var options = CONFIG.comments;
+        var options = {"appId":null,"appKey":null,"placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"mp","pageSize":10,"lang":"en","visitor":true,"recordIP":true,"serverURLs":null,"requiredFields":["nick","mail"],"enableQQ":true,"masters":["master@email.com","master2@email.com"],"masterTag":"主人","tips":"昵称框中填入QQ号，将自动获取QQ昵称&邮箱&头像；其他邮箱由Gavatar提供头像。"};
         options.el = '#comments';
         options.path = element.attr('data-id');
 
@@ -532,6 +558,9 @@ const pagePostion = function(url) {
 }
 
 const algoliaSearch = function(pjax) {
+  if(CONFIG.search === null)
+    return
+
   var search = instantsearch({
     indexName: CONFIG.search.indexName,
     searchClient  : algoliasearch(CONFIG.search.appID, CONFIG.search.apiKey),
@@ -555,7 +584,7 @@ const algoliaSearch = function(pjax) {
 
     instantsearch.widgets.searchBox({
       container           : '.search-input-container',
-      placeholder         : CONFIG.search.labels.input_placeholder,
+      placeholder         : LOCAL.search.placeholder,
       // Hide default icons of algolia search
       showReset           : false,
       showSubmit          : false,
@@ -569,7 +598,7 @@ const algoliaSearch = function(pjax) {
       container: '#search-stats',
       templates: {
         text: function(data) {
-          var stats = CONFIG.search.labels.hits_stats
+          var stats = LOCAL.search.stats
             .replace(/\$\{hits}/, data.nbHits)
             .replace(/\$\{time}/, data.processingTimeMS);
           return stats + '<span class="algolia-powered"></span><hr>';
@@ -586,7 +615,7 @@ const algoliaSearch = function(pjax) {
         },
         empty: function(data) {
           return '<div id="hits-empty">'+
-              CONFIG.search.labels.hits_empty.replace(/\$\{query}/, data.query) +
+              LOCAL.search.empty.replace(/\$\{query}/, data.query) +
             '</div>';
         }
       },
@@ -850,19 +879,20 @@ const siteInit = function () {
     cacheBust: false
   });
 
+  CONFIG.quicklink.ignores = LOCAL.ignores;
   quicklink.listen(CONFIG.quicklink);
 
   document.addEventListener('visibilitychange', function() {
     switch(document.visibilityState) {
       case 'hidden':
         $('[rel="icon"]').attr('href', statics + CONFIG.favicon.hidden);
-        document.title = CONFIG.favicon.hide;
+        document.title = LOCAL.favicon.hide;
         Loader.show()
         clearTimeout(titleTime);
       break;
       case 'visible':
         $('[rel="icon"]').attr('href', statics + CONFIG.favicon.normal);
-        document.title = CONFIG.favicon.show;
+        document.title = LOCAL.favicon.show;
         Loader.hide(1000)
         titleTime = setTimeout(function () {
           document.title = originTitle;

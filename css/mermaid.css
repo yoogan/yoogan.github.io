@@ -201,7 +201,7 @@ pre.graphviz svg > g > polygon {
 }
 .mermaid .today {
   fill: none;
-  stroke: var(--color-red);
+  stroke: var(--primary-color);
   stroke-width: 2px;
 }
 .mermaid .task {
@@ -295,15 +295,15 @@ pre.graphviz svg > g > polygon {
 .mermaid .crit1,
 .mermaid .crit2,
 .mermaid .crit3 {
-  stroke: var(--color-red);
-  fill: var(--color-red);
+  stroke: var(--primary-color);
+  fill: var(--primary-color);
   stroke-width: 2;
 }
 .mermaid .activeCrit0,
 .mermaid .activeCrit1,
 .mermaid .activeCrit2,
 .mermaid .activeCrit3 {
-  stroke: var(--color-red);
+  stroke: var(--primary-color);
   fill: var(--grey-1);
   stroke-width: 2;
 }
