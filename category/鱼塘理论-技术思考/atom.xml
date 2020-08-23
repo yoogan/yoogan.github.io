@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://yoogan.github.io</id>
+    <title>鱼干的小鱼塘 • Posts by &#34;鱼塘理论-技术思考&#34; category</title>
+    <link href="http://yoogan.github.io" />
+    <updated>2020-08-23T11:24:35.000Z</updated>
+    <entry>
+        <id>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E5%85%B3%E4%BA%8Ejava/</id>
+        <title>关于java</title>
+        <link rel="alternate" href="http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E5%85%B3%E4%BA%8Ejava/"/>
+        <content type="html">&lt;p&gt;java 是除了 C 以外我第一个进行系统性学习的语言&lt;/p&gt;
+</content>
+        <updated>2020-08-23T11:24:35.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E5%85%B3%E4%BA%8E%E5%90%8E%E7%AB%AF/</id>
+        <title>关于后端</title>
+        <link rel="alternate" href="http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E5%85%B3%E4%BA%8E%E5%90%8E%E7%AB%AF/"/>
+        <content type="html">&lt;p&gt;后端就是一个笼统的东西了&lt;/p&gt;
+&lt;h2 id=&#34;sql&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sql&#34;&gt;#&lt;/a&gt; SQL&lt;/h2&gt;
+&lt;p&gt;首先说说 sql 吧，入门可太简单了，但是入门完，，，呜呜呜我想回家&lt;/p&gt;
+</content>
+        <updated>2020-08-23T11:24:35.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E5%85%B3%E4%BA%8E%E5%89%8D%E7%AB%AF/</id>
+        <title>关于前端</title>
+        <link rel="alternate" href="http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E5%85%B3%E4%BA%8E%E5%89%8D%E7%AB%AF/"/>
+        <content type="html">&lt;p&gt;前端当然也是一个笼统的东西了，&lt;/p&gt;
+&lt;h2 id=&#34;css&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#css&#34;&gt;#&lt;/a&gt; CSS&lt;/h2&gt;
+&lt;p&gt;最开始接触 css 其实是在 135 编辑器，&lt;/p&gt;
+</content>
+        <updated>2020-08-23T11:24:35.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E5%85%B3%E4%BA%8Epython/</id>
+        <title>关于python</title>
+        <link rel="alternate" href="http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E5%85%B3%E4%BA%8Epython/"/>
+        <content type="html">&lt;p&gt;python 吧，说来话长～&lt;/p&gt;
+</content>
+        <updated>2020-08-23T11:24:35.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E6%A6%82%E8%AE%BA/</id>
+        <title>概论</title>
+        <link rel="alternate" href="http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E7%90%86%E8%AE%BA-%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/%E6%A6%82%E8%AE%BA/"/>
+        <content type="html">&lt;p&gt;鱼干是一个探索欲非常强的好奇宝宝，经常以各种奇奇怪怪的角度思考各种问题￣ω￣=&lt;/p&gt;
+&lt;h2 id=&#34;java&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#java&#34;&gt;#&lt;/a&gt; JAVA&lt;/h2&gt;
+&lt;p&gt;java 当然得是第一个了，因为公司主要是搞 java 的，那么这里就把 java 家族放一起写啦～&lt;/p&gt;
+&lt;p&gt;### 后端&lt;/p&gt;
+&lt;p&gt;其实想先写前端的，毕竟我就是喜欢花里胡哨的，但是感觉前端要说的太多了就先说后端吧。后端主要就是数据库咯，&lt;/p&gt;
+&lt;p&gt;### 前端&lt;/p&gt;
+&lt;p&gt;Ahhh，前端可以说的可就真的多了，从我最开始接触的 CSS 到 html，再到 Java 家族的 js,&lt;/p&gt;
+&lt;h2 id=&#34;python&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#python&#34;&gt;#&lt;/a&gt; python&lt;/h2&gt;
+&lt;p&gt;Python 怎么说呢，其实真的蛮喜欢爬虫工具，酷爱收集整理各种资料就是我了，但是各种事情拖着也没有仔细去看，后来准备论文刚好需要收集一些数据进行分析就想到了他，速成了几天，感觉 emmmm&lt;/p&gt;
+&lt;p&gt;### 等我想想怎么写哈&lt;/p&gt;
+</content>
+        <updated>2020-08-23T11:24:27.000Z</updated>
+    </entry>
+</feed>
