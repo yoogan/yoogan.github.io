@@ -1,17 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "鱼干的小鱼塘",
+    "title": "鱼干的小鱼塘 • All posts by \"鱼塘技术\" category",
     "description": "想在端庄之前先有趣",
     "home_page_url": "http://yoogan.github.io",
     "items": [
-        {
-            "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E5%A4%A9%E6%B0%94/emmm/",
-            "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E5%A4%A9%E6%B0%94/emmm/",
-            "title": "emmmm",
-            "date_published": "2020-08-23T11:24:27.000Z",
-            "content_html": "<p>emmmmmmmmmmmm</p>\n",
-            "tags": []
-        },
         {
             "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Epython/",
             "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Epython/",

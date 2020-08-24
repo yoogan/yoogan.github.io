@@ -1,12 +1,12 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "鱼干的小鱼塘 • All posts by \"鱼塘方针-心情迭代\" category",
+    "title": "鱼干的小鱼塘 • All posts by \"鱼塘天气\" category",
     "description": "想在端庄之前先有趣",
     "home_page_url": "http://yoogan.github.io",
     "items": [
         {
-            "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%96%B9%E9%92%88-%E5%BF%83%E6%83%85%E8%BF%AD%E4%BB%A3/emmm/",
-            "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%96%B9%E9%92%88-%E5%BF%83%E6%83%85%E8%BF%AD%E4%BB%A3/emmm/",
+            "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E5%A4%A9%E6%B0%94/emmm/",
+            "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E5%A4%A9%E6%B0%94/emmm/",
             "title": "emmmm",
             "date_published": "2020-08-23T11:24:27.000Z",
             "content_html": "<p>emmmmmmmmmmmm</p>\n",

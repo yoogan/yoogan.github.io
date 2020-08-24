@@ -1,20 +1,12 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>鱼干的小鱼塘</title>
+        <title>鱼干的小鱼塘 • Posts by &#34;鱼塘技术&#34; category</title>
         <link>http://yoogan.github.io</link>
         <description>想在端庄之前先有趣</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 23 Aug 2020 19:24:27 +0800</pubDate>
-        <lastBuildDate>Sun, 23 Aug 2020 19:24:27 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E5%A4%A9%E6%B0%94/emmm/</guid>
-            <title>emmmm</title>
-            <link>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E5%A4%A9%E6%B0%94/emmm/</link>
-            <pubDate>Sun, 23 Aug 2020 19:24:27 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;emmmmmmmmmmmm&lt;/p&gt;
- ]]></description>
-        </item>
+        <pubDate>Sun, 23 Aug 2020 03:03:03 +0800</pubDate>
+        <lastBuildDate>Sun, 23 Aug 2020 03:03:03 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Epython/</guid>
             <title>关于python</title>
