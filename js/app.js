@@ -1,4 +1,4 @@
-var CONFIG = {"hostname":"yoursite.com","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"js":{"valine":"js/valine.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0/dist/contrib/copy-tex.min.js","mediumzoom":"npm/medium-zoom@1.0.5/dist/medium-zoom.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0/dist/katex.min.css","mermaid":"css/mermaid.css"},"search":null,"quicklink":{"timeout":3000,"priority":true}};
+var CONFIG = {"hostname":"yoogan.github.io","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"js":{"valine":"js/valine.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0/dist/contrib/copy-tex.min.js","mediumzoom":"npm/medium-zoom@1.0.5/dist/medium-zoom.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0/dist/katex.min.css","mermaid":"css/mermaid.css"},"search":null,"quicklink":{"timeout":3000,"priority":true}};
 
 Object.assign(HTMLElement.prototype, {
   wrap: function (wrapper) {
