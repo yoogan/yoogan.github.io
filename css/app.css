@@ -1267,7 +1267,7 @@ header .list.menu .item.active a:hover {
   position: relative;
   width: 100%;
   height: 100%;
-  padding-top: 250px;
+  padding-top: 280px;
 }
 .brand .meta {
   position: fixed;
@@ -1296,7 +1296,7 @@ header .list.menu .item.active a:hover {
 .brand .meta .title {
   font-weight: bold;
   font-family: 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   margin: 0;
 }
 .brand .meta .subtitle {
