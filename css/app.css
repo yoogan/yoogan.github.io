@@ -1274,7 +1274,7 @@ header .list.menu .item.active a:hover {
   width: 556px;
   top: 0;
   left: calc(50% - 278px);
-  padding-top: 50px;
+  padding-top: 0px;
   text-align: center;
 }
 @media (max-width: 767px) {
@@ -1301,7 +1301,7 @@ header .list.menu .item.active a:hover {
 }
 .brand .meta .subtitle {
   color: #fff;
-  font-size: 0.875em;
+  font-size: 1.1em;
   margin: 10px 0;
 }
 .brand .meta .artboard {
