@@ -1037,7 +1037,7 @@ main .content .wrap {
 }
 main .content .wrap:nth-child(1) {
   margin-bottom: 20px;
-  min-height: 600px;
+  min-height: 0px;
 }
 @media (max-width: 991px) {
   main .content {
