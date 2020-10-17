@@ -17,55 +17,38 @@
         </item>
         <item>
             <guid isPermalink="true">http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Epython/</guid>
-            <title>005——关于python</title>
+            <title>002——关于python</title>
             <link>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Epython/</link>
             <pubDate>Sun, 23 Aug 2020 03:03:03 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;python 吧，说来话长～&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8E%E5%90%8E%E7%AB%AF/</guid>
-            <title>002——关于后端</title>
-            <link>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8E%E5%90%8E%E7%AB%AF/</link>
-            <pubDate>Sat, 22 Aug 2020 22:22:22 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;后端就是一个笼统的东西了&lt;/p&gt;
-&lt;h2 id=&#34;sql&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sql&#34;&gt;#&lt;/a&gt; SQL&lt;/h2&gt;
-&lt;p&gt;首先说说 sql 吧，入门可太简单了，但是入门完，，，呜呜呜我想回家&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8E%E5%89%8D%E7%AB%AF/</guid>
-            <title>003——关于前端</title>
-            <link>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8E%E5%89%8D%E7%AB%AF/</link>
-            <pubDate>Sat, 22 Aug 2020 20:20:20 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;前端当然也是一个笼统的东西了，&lt;/p&gt;
-&lt;h2 id=&#34;css&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#css&#34;&gt;#&lt;/a&gt; CSS&lt;/h2&gt;
-&lt;p&gt;最开始接触 css 其实是在 135 编辑器，&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;其实没想到自己第一个补完基础知识的会是 python，和 python 的相遇大概是命中注定吧。一个是因为爬虫收集数据保存数据实在太实用，另外嘛当然是营销号以 python 为噱头铺天盖地全方位无死角的介绍宣传让我不得不好奇他到底是个什么东西，那么接下来就和大家分享一下我的 python 技能树点亮的知识点～&lt;/p&gt;
  ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Ejava/</guid>
-            <title>004——关于java</title>
+            <title>003——关于java</title>
             <link>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Ejava/</link>
             <pubDate>Thu, 20 Aug 2020 18:18:18 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;java 是除了 C 以外我第一个进行系统性学习的语言&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E6%A6%82%E8%AE%BA/</guid>
-            <title>001——概论</title>
-            <link>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E6%A6%82%E8%AE%BA/</link>
-            <pubDate>Mon, 10 Aug 2020 08:08:08 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;鱼干是一个探索欲非常强的好奇宝宝，经常以各种奇奇怪怪的角度思考各种问题￣ω￣=&lt;/p&gt;
+            <guid isPermalink="true">http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AF%BB%E7%9A%84%E8%AF%B4%E6%98%8E/</guid>
+            <title>001——不得不读的说明</title>
+            <link>http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AF%BB%E7%9A%84%E8%AF%B4%E6%98%8E/</link>
+            <pubDate>Sat, 08 Aug 2020 08:08:08 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;这是一个充满了普通知识但依然奇奇怪怪的技术&lt;s&gt;科普&lt;/s&gt;？&lt;s&gt;交流&lt;/s&gt;？&lt;s&gt;相关&lt;/s&gt;？擦边区，只保存鱼干需要 &amp;amp; 喜欢的知识，没有为什么，因为苦也一天乐也一天，我开心我愿意 over~ 当然，如果有什么专业错误还是非常欢迎各位大佬留言指正的，毕竟野史无所谓但不能带坏小朋友┗(▔, ▔)┛&lt;/p&gt;
+&lt;h2 id=&#34;后端&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#后端&#34;&gt;#&lt;/a&gt; 后端&lt;/h2&gt;
+&lt;p&gt;emmm 其实想先写前端的，毕竟我就是喜欢花里胡哨可可爱爱的，但是感觉前端要说的太多了，那就还是先说后端吧 (ಥ_ಥ)&lt;/p&gt;
+&lt;p&gt;后端在业余的我眼里大概就是疯狂搞数据库以及他的周边，嗯，嗯，嗯，嗨呀对后端实在不熟，还是类比一下我的 axure 小可爱吧～axure 的中继器勉强算数据库的低低低配版，对数据有着花式操纵，操纵的语言 sql 可谓是一分钟就能入门，入门之后就，呜呜呜我想回家，上百行的 sql 可太死脑细胞了 (〒︿〒) 不过设计库设计多了居然咂摸出来一份类似玩数独的快感，到底要怎么设计库表来存我各种奇奇怪怪的数据然后以最简单的逻辑最少的代码语句来得到我需要的数据竟然也充满了乐趣&lt;/p&gt;
+&lt;h2 id=&#34;前端&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端&#34;&gt;#&lt;/a&gt; 前端&lt;/h2&gt;
+&lt;p&gt;Ahhh，前端可以说的可就真的多了，从我最开始接触的 CSS 到 html，再到疑似 Java 家族的 js,&lt;/p&gt;
 &lt;h2 id=&#34;java&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#java&#34;&gt;#&lt;/a&gt; JAVA&lt;/h2&gt;
 &lt;p&gt;java 当然得是第一个了，因为公司主要是搞 java 的，那么这里就把 java 家族放一起写啦～&lt;/p&gt;
-&lt;p&gt;### 后端&lt;/p&gt;
-&lt;p&gt;其实想先写前端的，毕竟我就是喜欢花里胡哨的，但是感觉前端要说的太多了就先说后端吧。后端主要就是数据库咯，&lt;/p&gt;
-&lt;p&gt;### 前端&lt;/p&gt;
-&lt;p&gt;Ahhh，前端可以说的可就真的多了，从我最开始接触的 CSS 到 html，再到 Java 家族的 js,&lt;/p&gt;
 &lt;h2 id=&#34;python&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#python&#34;&gt;#&lt;/a&gt; python&lt;/h2&gt;
 &lt;p&gt;Python 怎么说呢，其实真的蛮喜欢爬虫工具，酷爱收集整理各种资料就是我了，但是各种事情拖着也没有仔细去看，后来准备论文刚好需要收集一些数据进行分析就想到了他，速成了几天，感觉 emmmm&lt;/p&gt;
-&lt;p&gt;### 等我想想怎么写哈&lt;/p&gt;
+&lt;h2 id=&#34;css&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#css&#34;&gt;#&lt;/a&gt; CSS&lt;/h2&gt;
+&lt;p&gt;最开始接触 css 其实是在微信公众号编辑器 “135 编辑器” 中了解到的，有一些动画的内容怎么都点不到的时候我爱上了看源码，去源码直接改内容调尺寸可太方便了&lt;/p&gt;
+&lt;p&gt;## 等我想想怎么写哈&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

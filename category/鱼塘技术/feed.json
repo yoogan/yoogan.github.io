@@ -7,41 +7,25 @@
         {
             "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Epython/",
             "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Epython/",
-            "title": "005——关于python",
+            "title": "002——关于python",
             "date_published": "2020-08-22T19:03:03.000Z",
-            "content_html": "<p>python 吧，说来话长～</p>\n",
-            "tags": []
-        },
-        {
-            "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8E%E5%90%8E%E7%AB%AF/",
-            "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8E%E5%90%8E%E7%AB%AF/",
-            "title": "002——关于后端",
-            "date_published": "2020-08-22T14:22:22.000Z",
-            "content_html": "<p>后端就是一个笼统的东西了</p>\n<h2 id=\"sql\"><a class=\"markdownIt-Anchor\" href=\"#sql\">#</a> SQL</h2>\n<p>首先说说 sql 吧，入门可太简单了，但是入门完，，，呜呜呜我想回家</p>\n",
-            "tags": []
-        },
-        {
-            "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8E%E5%89%8D%E7%AB%AF/",
-            "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8E%E5%89%8D%E7%AB%AF/",
-            "title": "003——关于前端",
-            "date_published": "2020-08-22T12:20:20.000Z",
-            "content_html": "<p>前端当然也是一个笼统的东西了，</p>\n<h2 id=\"css\"><a class=\"markdownIt-Anchor\" href=\"#css\">#</a> CSS</h2>\n<p>最开始接触 css 其实是在 135 编辑器，</p>\n",
+            "content_html": "<p>其实没想到自己第一个补完基础知识的会是 python，和 python 的相遇大概是命中注定吧。一个是因为爬虫收集数据保存数据实在太实用，另外嘛当然是营销号以 python 为噱头铺天盖地全方位无死角的介绍宣传让我不得不好奇他到底是个什么东西，那么接下来就和大家分享一下我的 python 技能树点亮的知识点～</p>\n",
             "tags": []
         },
         {
             "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Ejava/",
             "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E5%85%B3%E4%BA%8Ejava/",
-            "title": "004——关于java",
+            "title": "003——关于java",
             "date_published": "2020-08-20T10:18:18.000Z",
             "content_html": "<p>java 是除了 C 以外我第一个进行系统性学习的语言</p>\n",
             "tags": []
         },
         {
-            "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E6%A6%82%E8%AE%BA/",
-            "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E6%A6%82%E8%AE%BA/",
-            "title": "001——概论",
-            "date_published": "2020-08-10T00:08:08.000Z",
-            "content_html": "<p>鱼干是一个探索欲非常强的好奇宝宝，经常以各种奇奇怪怪的角度思考各种问题￣ω￣=</p>\n<h2 id=\"java\"><a class=\"markdownIt-Anchor\" href=\"#java\">#</a> JAVA</h2>\n<p>java 当然得是第一个了，因为公司主要是搞 java 的，那么这里就把 java 家族放一起写啦～</p>\n<p>### 后端</p>\n<p>其实想先写前端的，毕竟我就是喜欢花里胡哨的，但是感觉前端要说的太多了就先说后端吧。后端主要就是数据库咯，</p>\n<p>### 前端</p>\n<p>Ahhh，前端可以说的可就真的多了，从我最开始接触的 CSS 到 html，再到 Java 家族的 js,</p>\n<h2 id=\"python\"><a class=\"markdownIt-Anchor\" href=\"#python\">#</a> python</h2>\n<p>Python 怎么说呢，其实真的蛮喜欢爬虫工具，酷爱收集整理各种资料就是我了，但是各种事情拖着也没有仔细去看，后来准备论文刚好需要收集一些数据进行分析就想到了他，速成了几天，感觉 emmmm</p>\n<p>### 等我想想怎么写哈</p>\n",
+            "id": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AF%BB%E7%9A%84%E8%AF%B4%E6%98%8E/",
+            "url": "http://yoogan.github.io/%E9%B1%BC%E5%A1%98%E6%8A%80%E6%9C%AF/%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AF%BB%E7%9A%84%E8%AF%B4%E6%98%8E/",
+            "title": "001——不得不读的说明",
+            "date_published": "2020-08-08T00:08:08.000Z",
+            "content_html": "<p>这是一个充满了普通知识但依然奇奇怪怪的技术<s>科普</s>？<s>交流</s>？<s>相关</s>？擦边区，只保存鱼干需要 &amp; 喜欢的知识，没有为什么，因为苦也一天乐也一天，我开心我愿意 over~ 当然，如果有什么专业错误还是非常欢迎各位大佬留言指正的，毕竟野史无所谓但不能带坏小朋友┗(▔, ▔)┛</p>\n<h2 id=\"后端\"><a class=\"markdownIt-Anchor\" href=\"#后端\">#</a> 后端</h2>\n<p>emmm 其实想先写前端的，毕竟我就是喜欢花里胡哨可可爱爱的，但是感觉前端要说的太多了，那就还是先说后端吧 (ಥ_ಥ)</p>\n<p>后端在业余的我眼里大概就是疯狂搞数据库以及他的周边，嗯，嗯，嗯，嗨呀对后端实在不熟，还是类比一下我的 axure 小可爱吧～axure 的中继器勉强算数据库的低低低配版，对数据有着花式操纵，操纵的语言 sql 可谓是一分钟就能入门，入门之后就，呜呜呜我想回家，上百行的 sql 可太死脑细胞了 (〒︿〒) 不过设计库设计多了居然咂摸出来一份类似玩数独的快感，到底要怎么设计库表来存我各种奇奇怪怪的数据然后以最简单的逻辑最少的代码语句来得到我需要的数据竟然也充满了乐趣</p>\n<h2 id=\"前端\"><a class=\"markdownIt-Anchor\" href=\"#前端\">#</a> 前端</h2>\n<p>Ahhh，前端可以说的可就真的多了，从我最开始接触的 CSS 到 html，再到疑似 Java 家族的 js,</p>\n<h2 id=\"java\"><a class=\"markdownIt-Anchor\" href=\"#java\">#</a> JAVA</h2>\n<p>java 当然得是第一个了，因为公司主要是搞 java 的，那么这里就把 java 家族放一起写啦～</p>\n<h2 id=\"python\"><a class=\"markdownIt-Anchor\" href=\"#python\">#</a> python</h2>\n<p>Python 怎么说呢，其实真的蛮喜欢爬虫工具，酷爱收集整理各种资料就是我了，但是各种事情拖着也没有仔细去看，后来准备论文刚好需要收集一些数据进行分析就想到了他，速成了几天，感觉 emmmm</p>\n<h2 id=\"css\"><a class=\"markdownIt-Anchor\" href=\"#css\">#</a> CSS</h2>\n<p>最开始接触 css 其实是在微信公众号编辑器 “135 编辑器” 中了解到的，有一些动画的内容怎么都点不到的时候我爱上了看源码，去源码直接改内容调尺寸可太方便了</p>\n<p>## 等我想想怎么写哈</p>\n",
             "tags": []
         }
     ]
